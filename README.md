@@ -1,4 +1,4 @@
-# Agencia de Viagens ✈️
+# Agência de Viagens ✈️
 💻 - Este bonito e intuitivo site de uma agência de viagens, traz o que você precisa para você se preparar para sua viagem.  Aqui você informa seus dados, data de partida, de volta e ainda descobre mais sobre outros lugares que você pode conhecer na seção de ofertas e anúncios.
 
 ⚔️ - Este projeto apesar de simples, foi desafiador. Gostei muito de trabalhar neste site, coloquei em prática principalmente: formulários, flexbox e mediaquery. Eu gostei bastente do resultado! E você? Deixe-me saber o que você achou!
