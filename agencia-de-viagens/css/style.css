@@ -1,0 +1,407 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+header, main, section, footer {
+     width: 100%;
+}
+
+body {
+     font-size: 1rem;
+     font-family: 'Raleway', Arial, sans-serif;
+     background-color: #80808029;
+}
+
+section {
+     padding: 40px 0;
+     box-sizing: border-box;
+}
+
+.area-limite {
+     width: 65%;
+     max-width: 1200px;
+     margin: 0 auto;
+}
+
+/* MENU */
+
+header, footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #fff;
+}
+
+.menu, .conteudo-menu {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     width: 65%;
+     padding: 15px 0;
+}
+
+.conteudo-menu {
+     flex-wrap: nowrap;
+     width: auto;
+     padding: 0;
+     gap: 15px;
+}
+
+.menu img {
+     width: 32px;
+     height: 32px;
+}
+
+.menu span {
+     color: #5918c2;
+     font-size: 1.2rem;
+     font-weight: 600;
+}
+
+/* SEÇÃO FORMULÁRIO */
+
+section:first-of-type {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 750px;
+     background-image: url('../assets/img/bahia.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.container-form {
+     height: 650px;
+     background-color: #fff;
+}
+
+.titulo-form {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     background-color: #5918c2;
+}
+
+.conteudo-titulo-form {
+     color: #fff;
+     font-size: 0.7rem;
+     font-weight: 900;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 8px 0;
+     gap: 10px;
+}
+
+.conteudo-titulo-form img {
+     width: 22px;
+     height: 22px;
+     transform: rotate(-15deg);
+}
+
+.form-area {
+     padding: 0 40px 40px 40px;
+     box-sizing: border-box;
+}
+
+h1 {
+     font-weight: 700;
+     margin: 15px 0;
+}
+
+.grupo-label-input {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+}
+
+.grupo-input-duplo, .grupo-input-duplo-radio-check {
+     display: flex;
+     gap: 15px;
+}
+
+.grupo-input-duplo-radio-check { flex-wrap: wrap; }
+
+.grupo-input-radio {
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+     margin-bottom: 5px;
+}
+
+.grupo-input-radio input {
+     width: 15px;
+     height: 15px;
+}
+
+.flex-input {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+}
+
+label {
+     font-size: 1rem;
+     font-weight: 600;
+     margin-top: 10px;
+}
+
+input, select {
+     font-size: 1rem;
+     height: 30px;
+     padding: 5px 10px;
+     margin-top: 10px;
+     box-sizing: border-box;
+}
+
+.flex-input input, .flex-input label { margin: 0; }
+
+form button {
+     color: #fff;
+     background-color: #5918c2;
+     font-size: 1rem;
+     font-weight: 600;
+     margin-top: 15px;
+     padding: 5px 0;
+     width: 150px;
+     border: 2px solid #5918c2;
+}
+
+form button:focus {
+     color: #5918c2;
+     background-color: #fff;
+}
+
+/* SEÇÃO OFERTAS */
+
+.titulo-descricao { margin-bottom: 20px; }
+
+h3 {
+     font-size: 1.4rem;
+     font-weight: 600;
+     margin-bottom: 5px;
+}
+
+.container-imagens {
+     width: 100%;
+     height: 300px;
+     display: flex;
+     gap: 10px;
+    
+}
+
+.box-imagem-destaque,
+.box-imagem-destaque figure,
+.box-imagem-destaque figure img,
+.box-imagem figure img {
+     width: 100%;
+     height: 100%;
+}
+
+.box-imagem {
+     width: 90%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-content: space-between;
+}
+
+.box-imagem figure {
+     width: calc(98% / 2);
+     height: calc(50% - 5px);
+}
+
+.ofertas figcaption {
+     color: #fff;
+     padding: 5px;
+     position: relative;
+     bottom: 32px;
+     background-color: #00000074;
+}
+
+/* SEÇÃO DIVULGAÇÃO */
+
+.divulgacao .box-imagem figure {
+     width: 100%;
+     height: 100%;
+}
+
+.divulgacao figcaption {
+     padding: 10px 20px 20px 20px;
+     background-color: #fff;
+}
+
+figcaption h4 { margin: 5px 0; }
+
+/* RODAPÉ */
+
+footer {
+     color: #fff;
+     background-color: #5918c2;
+     margin-top: 120px;
+     padding: 20px 0;
+}
+
+footer img {
+     width: 20px;
+     height: 20px;
+}
+
+footer .area-limite {
+     display: flex;
+     justify-content: space-between;
+}
+
+footer h4 {
+     font-size: 1.1rem;
+     font-weight: 900;
+     margin: 10px 0;
+}
+
+.icon-texto {
+     display: flex;
+     align-items: center;
+     margin: 15px 0;
+     gap: 10px;
+}
+
+/* MEDIAQUERY */
+
+@media (min-width: 1500px) {
+     .area-limite {
+          width: 80%;
+     }
+     .container-imagens {
+          height: 450px;
+     }
+}
+
+@media (max-width: 1200px) {
+     section { padding: 20px 0; }
+     .container-imagens {
+          flex-direction: column;
+          height: 100%;
+     }
+     .box-imagem-destaque { height: 400px; }
+
+     .box-imagem { width: 100%; }
+
+     .box-imagem figure {
+          height: 200px;
+          margin: 10px 0;
+     }
+     .divulgacao .box-imagem figure {
+          height: 500px;
+          margin-bottom: 80px ;
+     }
+}
+
+@media (max-width: 950px) {
+     .box-imagem-destaque { height: 350px; }
+
+     .box-imagem figure {
+          width: 100%;
+          height: 300px;
+     }
+     .divulgacao .box-imagem figure { height: 400px; }
+     
+     form button { width: 100%; }
+}
+
+@media (max-width: 800px) {
+     section:first-of-type {
+          height: 900px;
+     }
+     .container-form {
+          height: 820px;
+     }
+     .grupo-input-duplo {
+          flex-direction: column;
+     }
+     footer .area-limite {
+          flex-direction: column;
+          align-items: center;
+     }
+}
+
+@media (max-width: 700px) {
+     .area-limite {
+          width: 85%;
+     }
+
+     h1 { font-size: 1rem; }
+
+     label, input, select, button { font-size: 0.8rem; }
+     .titulo-descricao {
+          font-size: 0.9rem;
+          width: 60%;
+          margin: 0 auto 20px  auto;
+     }
+     .container-imagens {
+          align-items: center;
+     }
+
+     .box-imagem figure,
+     .box-imagem-destaque,
+      .divulgacao .box-imagem figure {
+          width: 60%;
+          height: 220px;
+     }
+     .box-imagem {
+          justify-content: center;
+     }
+     .box-rodape {
+          width: 70%;
+     }
+}
+
+@media (max-width: 570px) {
+     section:first-of-type { height: 950px; }
+
+     .area-limite { width: 90%; }
+
+     .titulo-descricao { width: 90%; }
+
+     .box-imagem figure,
+     .box-imagem-destaque,
+      .divulgacao .box-imagem figure {
+          width: 90%;
+          height: 270px;
+      }
+}
+
+@media (max-width: 450px) {
+     .conteudo-menu img {
+          width: 20px;
+          height: 20px;
+     }
+
+     .menu { justify-content: center; }
+
+     .conteudo-menu span,
+     .conteudo-titulo-form h2 {
+          font-size: 1rem;
+     }
+     .form-area { padding: 0 20px 20px 20px; }
+
+     .titulo-descricao { width: 100%; }
+
+     .box-imagem figure,
+     .box-imagem-destaque,
+      .divulgacao .box-imagem figure {
+          width: 100%;
+          height: 200px;
+      }
+
+      form button {
+          font-size: 0.9rem;
+          font-weight: 600;
+      }
+
+      .icon-texto span {
+          font-size: 0.8rem;
+      }
+}
