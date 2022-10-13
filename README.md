@@ -1,13 +1,57 @@
-# Agência de Viagens ✈️
-💻 - Este bonito e intuitivo site de uma agência de viagens, traz o que você precisa para você se preparar para sua viagem.  Aqui você informa seus dados, data de partida, de volta e ainda descobre mais sobre outros lugares que você pode conhecer na seção de ofertas e anúncios.
+<h1 align="center">Agência de Viagens ✈️</h1>
 
-⚔️ - Este projeto apesar de simples, foi desafiador. Gostei muito de trabalhar neste site, coloquei em prática principalmente: formulários, flexbox e mediaquery. Eu gostei bastente do resultado! E você? Deixe-me saber o que você achou!
+<br>
 
-📸 - Aqui está algumas imagens do projeto:
+![agencia](https://user-images.githubusercontent.com/75648386/195637064-94cd4abc-8905-42b0-8e0a-a2602b35014b.gif)
 
-![image](https://user-images.githubusercontent.com/75648386/173972148-4bca3eb9-a22c-4f33-b96b-dccd571fbc2e.png)
-![image](https://user-images.githubusercontent.com/75648386/173972156-2743638d-35c4-404b-bb3f-679ae0bda37e.png)
-![image](https://user-images.githubusercontent.com/75648386/174067247-f19ccea2-b567-4734-9377-e6b64689750b.png)
-![image](https://user-images.githubusercontent.com/75648386/173972161-0d6a85d6-d797-4361-b107-007dabcc9ea1.png)
+<br>
 
-⭐ - Espero que tenha gostado! 😄
+<div align="center">
+  <a href="#sobre">Sobre</a> -
+  <a href="#tecnologias">Tecnologias</a> -
+  <a href="#imagens-do-projeto">Imagens do projeto</a> -
+  <a href="#fale-comigo">Fale comigo</a>
+</div>
+
+<br>
+
+## Sobre
+
+<p>Este é um intuitivo site de uma agência de viagens, traz o que você precisa para você se preparar para sua viagem.  Aqui você informa seus dados, data de partida, de volta e ainda descobre mais sobre outros lugares que você pode conhecer na seção de ofertas e anúncios.</p>
+
+<p>Este projeto apesar de simples, foi desafiador. Gostei muito de trabalhar neste site, coloquei em prática principalmente: formulários, flexbox e mediaquery. Eu gostei bastente do resultado! </p>
+
+### Entre no site da Âgencia de Viagens
+
+Link: <a href="" target="blank">Âgencia de Viagens</a>
+
+<br>
+
+## Tecnologias
+
+<p>Nesta aplicação eu utilizei as seguintes tecnologias:</p>
+
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+</ul>
+
+<br>
+
+## Imagens do projeto
+
+![image](https://user-images.githubusercontent.com/75648386/195635805-a8e318cb-0ea3-404d-b851-3af59f411f8b.png)
+
+<br>
+
+## Fale comigo
+
+<p>Caso você esteja interessado em me contatar para uma oportunidade de trabalho, freelancer, ou até mesmo se você for outro dev que precisa de ajuda ou gostaria de fazer
+  um projeto juntos; eu irei deixar aqui minhas principais social medias:
+</p>
+
+<ul>
+  <li><a href="https://www.linkedin.com/in/luiz-henrique-dev-frontend/" target="_blank">LinkedIn</a></li>
+  <li><a href="https://portfolio-luizmeraki.vercel.app/" target="_blank">Portfólio</a></li>
+  <li><a href="https://www.instagram.com/luizmeraki/" target="_blank">Instagram</a></li>
+</ul>
