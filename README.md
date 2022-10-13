@@ -17,19 +17,21 @@
 
 ## Sobre
 
+<i>Projeto para fins didáticos, para pôr em prática conceitos que estudei.</i>
+
 <p>Este é um intuitivo site de uma agência de viagens, traz o que você precisa para você se preparar para sua viagem.  Aqui você informa seus dados, data de partida, de volta e ainda descobre mais sobre outros lugares que você pode conhecer na seção de ofertas e anúncios.</p>
 
 <p>Este projeto apesar de simples, foi desafiador. Gostei muito de trabalhar neste site, coloquei em prática principalmente: formulários, flexbox e mediaquery. Eu gostei bastente do resultado! </p>
 
-### Entre no site da Âgencia de Viagens
+### Entre no site da Agência de Viagens
 
-Link: <a href="" target="blank">Âgencia de Viagens</a>
+Link: <a href="" target="blank">Agência de Viagens</a>
 
 <br>
 
 ## Tecnologias
 
-<p>Nesta aplicação eu utilizei as seguintes tecnologias:</p>
+<p>Neste site eu utilizei as seguintes tecnologias:</p>
 
 <ul>
   <li>HTML</li>
